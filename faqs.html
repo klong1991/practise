@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>So Long and Goodnight</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+
+            $('.faq_question').click(function() {
+
+                if ($(this).parent().is('.open')) {
+                    $(this).closest('.faq').find('.faq_answer_container').slideUp();
+                    $(this).closest('.faq').removeClass('open');
+                } else {
+                    $('.faq_answer_container').slideUp();
+                    $('.faq').removeClass('open');
+                    $(this).closest('.faq').find('.faq_answer_container').slideDown();
+                    $(this).closest('.faq').addClass('open');
+                }
+
+            });
+        })
+    </script>
+</head>
+<body>
+
+    <div class="menu">
+        <a href="index.html" class="menulink">Home</a>
+        <a href="about.html" class="menulink">About</a>
+        <a href="castcrew.html" class="menulink">Cast & Creatives</a>
+        <a href="gallery.html" class="menulink">Gallery</a>
+        <a href="faqs.html" class="menulink">FAQs</a>
+        <a href="buytickets.html"class="menulink">Buy Tickets</a>
+    </div>
+    <div class="texttop"><img src="angel1.png" class="pictopimg" alt="an image of a praying angel wearing a crown"></div>
+    <div class="contenttwo">
+        <img src="faq.png" class="centerimg" alt="FAQs">
+<p>
+        If your question isn't answered below, feel free to contact us.<br><br>
+        <a href="#general" class="homelink">General Queries</a>
+        <a href="#ticket" class="homelink">Ticket Queries</a>
+        <a name="general"></a>
+        <div class="faq_container">
+            <div class="faq">
+                <div class="faq_question open">What night will My Chemical Romance be there?</div>
+                <div class="faq_answer_container" style="display: block;">
+                    <div class="faq_answer">While My Chemical Romance were involved in the creation and production of So Long And Goodnight, no current or past members of the band perform in the show. To view our cast members, <a href="castcrew.html">click here.</a> For the safety of My Chemical Romance, we do not release information about their attendence as audience members until after the performance. </div>
+                </div>
+            </div>
+    
+            <div class="faq">
+                <div class="faq_question">Will you play my favourite song?</div>
+                <div class="faq_answer_container">
+                    <div class="faq_answer">We hope that your favourite song is included in our track list! The story is set to the greatest hits of My Chemical Romance - and some more. Because this is a scripted performance, and not a concert, we have to stick to the same script each night, so unfortunately we can't take requests. We're sure you'll still enjoy it!</div>
+                </div>
+            </div>
+    
+            <div class="faq">
+                <div class="faq_question">Do you do Sing-Along Nights?</div>
+                <div class="faq_answer_container">
+                    <div class="faq_answer">Singing along to MCR is very tempting, but some of the songs are very different to the versions you've heard from the band itself. We are certainly considering putting on special sing-along nights, so keep an eye out!</div>
+                </div>
+            </div>
+   
+            <div class="faq">
+                <div class="faq_question">Will you be recording a soundtrack? Will it be on Spotify?</div>
+                <div class="faq_answer_container">
+                    <div class="faq_answer">We are currently in the process of completing our original cast recording! Our lovely sound engineers at <a href="https://allosound.co.uk" target="_blank">Allo Sound</a> are just working on the final master. We hope to have these complete before May 2021, so keep an eye (or an ear!) out. The soundtrack will be availible for stream on Spotify, and for download on iTunes and Amazon Music. Collector's Edition vinyl copies will also be made later in the year, sold exclusively at the venue. </div>
+                </div>
+            </div>
+            <div class="faq">
+                <div class="faq_question">Do you offer backstage tours?</div>
+                <div class="faq_answer_container">
+                    <div class="faq_answer">While the show does not run specific backstage tours, our current venue occasionally holds special venue tours which offer you views on the stage you wouldn't get otherwise! For health and safety reasons, access to the set is restricted, but you can enter the wings, the backstage area, the substage area, and the fly floor - which offers a fantastic birds-eye view of the set! You'll learn many backstage secrets about the show and the venue - but they do sell out very quickly! We'll update our front page whenever there are new tours availible!</div>
+                </div>
+            </div>
+    
+            <div class="faq">
+                <div class="faq_question">Is there an age restriction?</div>
+                <div class="faq_answer_container">
+                    <div class="faq_answer">The performance has recurring themes of war, the supernatural, and death. There are some uses of profanties. We would not recommend the performance for anyone under 14, and children under 10 are not permitted under any circumstances for health and safety reasons. Under 16s will not be given entrance without an adult present.</div>
+                </div>
+            </div>
+   
+            <div class="faq">
+                <div class="faq_question">Is the performance accessible?</div>
+                <div class="faq_answer_container">
+                    <div class="faq_answer">The venue has full accessibilty, with step-free access throughout the ground floor, and step-free access to the first and second floor toilets, bars and first tiers of seating. <br>
+                    There are hearing loops availible at box office, please let them know when booking your tickets if you require one.<br>
+                    For visually impaired patrons, audio-desription headset are availible. Please let box office know you will require one when booking your tickets.<br>
+                    The performance does contain flashing lights, loud sounds and smoke. We ask you use your discretion when booking tickets. Relaxed performances take place every Wednesday, with limited special effects, should you prefer to attend. </div>
+                </div>
+            </div>
+
+    <a name="ticket"></a>
+            <div class="faq">
+                <div class="faq_question">How much are tickets?</div>
+                <div class="faq_answer_container">
+                    <div class="faq_answer">All of our tickets are £10 or less. Every seat in the venue offers you unrestricted views of the stage and the performance, however seats on the first and second floors are between £6-£8 due to their distance from the stage. You can book tickets <a href="buytickets.html"> here.</a></div>
+                </div>
+            </div>
+
+            <div class="faq">
+                <div class="faq_question">How do I buy tickets? </div>
+                <div class="faq_answer_container">
+                    <div class="faq_answer">You can book tickets online <a href="buytickets.html"> here</a>. You can also call our box office on 01632 960501 between 9am - 8pm Monday - Saturday, or visit them in person between 10.30am - 6.30pm Monday - Saturday. <br>
+                    Please note, this website is the only official online vendor of tickets for So Long and Goodnight. We do not recommend using third party sites to purchase tickets for any of our performances.</div>
+                </div>
+            </div>
+                
+            <div class="faq">
+                <div class="faq_question">Will you be adding more dates?</div>
+                <div class="faq_answer_container">
+                    <div class="faq_answer">For the time being, So Long and Goodnight is schedule to run in Liverpool from April 2021 - April 2022. We run 6 performances a week, 6 days a week. We hope to add more dates in the future. </div>
+                </div>
+            </div>
+    
+            <div class="faq">
+                <div class="faq_question">I have an issue with my tickets.</div>
+                <div class="faq_answer_container">
+                    <div class="faq_answer">If you've booked tickets for the wrong day, you wish to ammend the amount of tickets you've purchased, or you would like a refund, please contact the venue's box office on 01632 960501. The friendly staff will do their best to ammend your tickets for you. However, please note, staff cannot reallocate you tickets to sold out performances, or performances that would become sold out with your full party. </div>
+                </div>
+            </div>
+                
+            <div class="faq">
+                <div class="faq_question">I can't make the performance anymore, can I get a refund?</div>
+                <div class="faq_answer_container">
+                    <div class="faq_answer">If you return your tickets at least 24 hours before your visit, you will be entitled to full refund of the ticket price (excluding any booking or card fees.) If you need to return your tickets within 24 hours of the performance, we cannot guarantee a full refund.</div>
+                </div>
+            </div>
+    
+            <div class="faq">
+                <div class="faq_question">I missed the performance, can I get a refund?</div>
+                <div class="faq_answer_container">
+                    <div class="faq_answer">Unfortunately, we are unable to give refunds for performances that have been missed for any reason. If the performace is cancelled, you will be entilted to a full refund, and you will recieve tickets for another performance of your choice subject to availibilty. We will endevor to let you know about any cancellations as soon as possible.  </div>
+                </div>
+            </div>
+   
+            <div class="faq">
+                <div class="faq_question">We booked tickets to see "Cast Member", but their understudy was on. Can we get a refund?</div>
+                <div class="faq_answer_container">
+                    <div class="faq_answer">We're sorry to hear that your favourite cast member wasn't on, but we're sure you still enjoyed the performance of every cast member! All of our cast members are dedicated to providing you with the best performance of So Long and Goodnight possible.<br>
+                    The terms of booking our tickets does include a clause stating that no cast member is guaranteed to perform on any specific show, and that changes can be made up to the performance starting. If we know of a cast change, we will endevor to let you know as soon as possible, and change your tickets if there is a least 24 hours left, but we cannot give refunds for understudy or swing performances. </div>
+                </div>
+            </div>
+                   
+            <div class="faq">
+                <div class="faq_question">I've lost my ticket! What can I do?</div>
+                <div class="faq_answer_container">
+                    <div class="faq_answer">We understand that sometimes things go missing! If you booked your tickets online, a copy will be sent to the e-mail address you provided us with for you to download at any point. If you have physical tickets, and they go missing, please call box office on 01632 960501 as soon as possible to let us know. This way, we can ensure they cannot be used should anyone else find them. If you bring proof of ID, the card you purchased the tickets with, and your booking reference (if you know it) you will be given new tickets on the night. </div>
+                </div>
+            </div>
+    
+    </div>
+</div>
+<div class="footer">
+    <a href="https://www.mychemicalromance.com/" class="footerlink" target="_blank">Official My Chemical Romance</a>
+    ::
+    <a href="https://www.warnerrecords.com/" class="footerlink" target="_blank">Warner Records</a>
+    ::
+    <a href="privacy.html" class="footerlink">Privacy</a>
+    <br>
+    My Chemical Romance and all related content &copy to Warner Records. This project is not a real event. This project is not an officially endorsed project. 
+</div>
+
+</body>
+</html>

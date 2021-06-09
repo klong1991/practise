@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>So Long and Goodnight</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+} 
+    </script>
+</head>
+<body>
+
+    <div class="menu">
+        <a href="index.html" class="menulink">Home</a>
+        <a href="about.html" class="menulink">About</a>
+        <a href="castcrew.html" class="menulink">Cast & Creatives</a>
+        <a href="gallery.html" class="menulink">Gallery</a>
+        <a href="faqs.html" class="menulink">FAQs</a>
+        <a href="buytickets.html"class="menulink">Buy Tickets</a>
+    </div>
+    <div class="texttop"><img src="angel1.png" class="pictopimg" alt="an image of a praying angel wearing a crown"></div>
+    <div class="contenttwo">
+        <img src="gallery.png" class="centerimg" alt="gallery">
+<p>
+
+
+ <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 4</div>
+      <img src="img1.jpg" style="width:100%" alt="Sketch of a float with a skull flower arrangement">
+      <div class="text">Sketch - float &copy Mike Lang So Long and Goodnight</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 4</div>
+      <img src="img2.jpg" style="width:100%" alt="Sketch of an ornate floaral and jewelled headress">
+      <div class="text">War Final HeadPiece &copy Maz Harvey So Long and Goodnight</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 4</div>
+      <img src="img3.jpg" style="width:100%" alt="Rough sketches of a set">
+      <div class="text">First sketches &copy Mike Lang So Long and Goodnight</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 4</div>
+      <img src="img4.jpg" style="width:100%" alt="Sketch of two costumes with little detail">
+      <div class="text">Rough sketches of costume &copy Maz Harvey So Long and Goodnight</div>
+    </div>
+  
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+ 
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div> 
+</div>
+<div class="footer">
+    <a href="https://www.mychemicalromance.com/" class="footerlink" target="_blank">Official My Chemical Romance</a>
+    ::
+    <a href="https://www.warnerrecords.com/" class="footerlink" target="_blank">Warner Records</a>
+    ::
+    <a href="privacy.html" class="footerlink">Privacy</a>
+    <br>
+    My Chemical Romance and all related content &copy to Warner Records. This project is not a real event. This project is not an officially endorsed project. 
+</div>
+<script>
+    showSlides(slideIndex);
+  </script>
+</body>
+</html>
