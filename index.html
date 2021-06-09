@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>So Long and Goodnight</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+
+    <div class="menu">
+        <a href="index.html" class="menulink">Home</a>
+        <a href="about.html" class="menulink">About</a>
+        <a href="castcrew.html" class="menulink">Cast & Creatives</a>
+        <a href="gallery.html" class="menulink">Gallery</a>
+        <a href="faqs.html" class="menulink">FAQs</a>
+        <a href="buytickets.html"class="menulink">Buy Tickets</a>
+    </div>
+    <div class="content">
+        <img src="logomain.png" class="logolarge" alt="So Long And Goodnight - Based on the music of My Chemical Romance"><br>
+
+        <a href="buytickets.html" class="homelink">Buy Tickets</a>
+       <!-- Trigger/Open The Modal -->
+<button id="myBtn" class="modalbutton">Updates</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p><h2>Cast Changes</h2>
+        For performances betwen 17th August - 22nd August, the role of WAR will be played by Jiang Ying Yue</p>
+  </div>
+
+</div> 
+    </div>
+
+    <div class="footer">
+        <a href="https://www.mychemicalromance.com/" class="footerlink" target="_blank">Official My Chemical Romance</a>
+        ::
+        <a href="https://www.warnerrecords.com/" class="footerlink" target="_blank">Warner Records</a>
+        ::
+        <a href="privacy.html" class="footerlink">Privacy</a>
+        <br>
+        My Chemical Romance and all related content &copy to Warner Records. This project is not a real event. This project is not an officially endorsed project. 
+    </div>
+    <script>
+        // Get the modal
+            var modal = document.getElementById("myModal");
+            
+            // Get the button that opens the modal
+            var btn = document.getElementById("myBtn");
+            
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+            
+            // When the user clicks on the button, open the modal
+            btn.onclick = function() {
+              modal.style.display = "block";
+            }
+            
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+              modal.style.display = "none";
+            }
+            
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+              if (event.target == modal) {
+                modal.style.display = "none";
+              }
+            } 
+        </script>
+</body>
+</html>

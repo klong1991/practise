@@ -1,0 +1,723 @@
+/*Standard*/
+
+body {
+    background: #232323 url("background.jpg") no-repeat fixed right bottom;
+    margin: 0px;
+    height: 100%;
+    background-size: 100%
+  }
+
+h1 {    
+    color: #bb9507;
+    font-family:'Times New Roman', serif;
+    font-size: xx-large;
+    font-variant: small-caps;
+    position: center;
+   }
+
+h2 {    
+    color: #bb9507;
+    font-family:'Times New Roman', serif;
+    font-size: x-large;
+    font-variant: small-caps;
+    position: center;
+   }
+
+h3 {    
+  color: #bb9507;
+  font-family:'Times New Roman', serif;
+  font-size: large;
+  font-variant: small-caps;
+  position: center;
+ }
+
+a:link {    
+    color: #bb9507;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    font-size: large;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+a:visited {    
+    color: #bb9507;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    font-size: large;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+a:hover {    
+    color: #515151;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    font-size: large;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+/*Structure*/
+.content {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    min-height: calc(100vh - 125px);
+    }
+
+.texttop {
+    height:auto;
+    width: 100%;
+    }
+
+.contenttwo {
+    background: rgba(63, 63, 63, 0.3);
+    color: #F0F0F0;
+    font-family: verdana, sans-serif;
+    font-size: medium;
+    text-align: center;
+    border-top: 10px;
+    border-top-style: solid;
+    border-color: #856a5c;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 10px;
+    min-height: calc(100vh - 125px);
+    }
+.padder {
+    height: 90vh;
+    padding: 1px;
+    display: block;
+    }
+
+/*Menu*/
+
+.menu {
+    background: rgba(0, 0, 0, 0.2);
+    text-align: center;    
+  }
+
+.menulink:link {
+    color: #bb9507;
+    font-family:'Times New Roman', serif;
+    font-size: xx-large;
+    font-variant: small-caps;
+    position: center;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+.menulink:visited {
+    color: #bb9507;
+    font-family:'Times New Roman', serif;
+    font-variant: small-caps;
+    position: center;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+.menulink:hover, .menulink:active {
+    background-color: #515151;
+    font-family:'Times New Roman', serif;
+    font-variant: small-caps;
+    position: center;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+/*Footer*/
+
+.footer {
+    background: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #F0F0F0;
+    font-family: verdana, sans-serif;
+    font-size: medium;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    }
+
+.footerlink:link {    
+    color: #bb9507;
+    font-family:'Times New Roman', serif;
+    font-size: larger;
+    font-variant: small-caps;
+    position: center;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 20px;
+    
+    }
+
+.footerlink:hover {    
+    color: #bb4907;
+    font-family:'Times New Roman', serif;
+    font-size: larger;
+    font-variant: small-caps;
+    position: center;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 20px;
+    
+    }
+
+.footerlink:visited {    
+    color: #bb9507;
+    font-family:'Times New Roman', serif;
+    font-size: larger;
+    font-variant: small-caps;
+    position: center;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 20px;
+    
+    }
+
+/*FAQS*/
+        
+.faq_question {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    display: block;
+    cursor: pointer;
+    color: #dfbe42;
+    font-family:'Times New Roman', serif;
+    font-size: x-large;
+    font-variant: small-caps;
+    position: center;
+    }
+        
+.faq_answer_container {
+    display: none;
+    text-align: center;
+    background-color: #232323;
+    padding: 5px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.faqtitle:link {
+    color: #bb9507;
+    font-family: Arial, sans-serif;
+    font-size: large;
+    font-variant: small-caps;
+    position: center;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+    }
+
+.faqtitle:hover {
+    background-color: #232323;
+    font-family: Arial, sans-serif;
+    font-size: large;
+    font-variant: small-caps;
+    position: center;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+    }
+
+.faqtitle:visited {
+    color: #bb9507;
+    font-family: Arial, sans-serif;
+    font-size: large;
+    font-variant: small-caps;
+    position: center;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+    }
+/*Images*/
+
+.logolarge {
+    width:100%;
+    height:auto;
+    margin-top: 1%;
+    }
+
+.leftimg {
+    float: left;
+    margin: 10px;
+    max-width:100%;
+    height:auto;
+}
+
+.centerimg {
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:100%;
+    height:auto;
+}
+.pictopimg {
+    margin-bottom: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.floated_img
+{
+    float: left;
+    padding: 10px;
+    max-width:100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*slideshow*/
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 90%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color:#232323;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Position the "next button" to the right */
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  background-color: rgba(0,0,0,0.8);
+  color: #F0F0F0;
+  font-size: large;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #232323;
+  font-size: larger;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*Headshot Page*/
+
+.column {
+  float: left;
+  width: 16.6%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: #F0F0F0;
+  font-family:'Times New Roman', serif;
+  font-size: larger;
+  font-variant: small-caps;
+  position: center;
+}
+
+/*Homepage Buttons and modal*/
+
+.homelink:link {
+  width: 30%;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-style: solid;
+  border-color: rgba(63, 63, 63, 0.3);
+  border-width: 5px;
+  color: #bb9507;
+  font-family:'Times New Roman', serif;
+  font-size: 1.7vw;
+  font-variant: small-caps;
+  position: center;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.homelink:visited {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-style: solid;
+  border-color: rgba(63, 63, 63, 0.3);
+  border-width: 5px;
+  color: #bb9507;
+  font-family:'Times New Roman', serif;
+  font-size: 1.7vw;
+  font-variant: small-caps;
+  position: center;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.homelink:hover, .homelink:active {
+  background-color: rgba(81, 81, 81, 0.2);
+  border-style: solid;
+  border-color: rgba(63, 63, 63, 0.3);
+  border-width: 5px;
+  color: #bb9507;
+  font-family:'Times New Roman', serif;
+  font-size: 1.7vw;
+  font-variant: small-caps;
+  position: center;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/*Ticket Purchase*/
+
+.calbutton {    
+  color: #bb9507;
+  background: none;
+  border: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+  font-size: 1vw;
+  text-align: right;
+  text-decoration: none;
+}
+
+.calbutton:link {    
+  color: #bb9507;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+  font-size: 1vw;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+.calbutton:visited {    
+  color: #bb9507;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+  font-size: 1vw;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+.calbutton:hover {    
+  color: #515151;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+  font-size: large;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+.modalbuttonb {
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-style: solid;
+  border-color: rgba(63, 63, 63, 0.3);
+  border-width: 5px;
+  color: #bb9507;
+  font-family:'Times New Roman', serif;
+  font-size: 1vw;
+  font-variant: small-caps;
+  margin-left: 10%;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.modalbuttonb:hover {
+  background-color: rgba(81, 81, 81, 0.2);
+  border-style: solid;
+  border-color: rgba(63, 63, 63, 0.3);
+  border-width: 5px;
+  color: #bb9507;
+  font-family:'Times New Roman', serif;
+  font-size: 1vw;
+  font-variant: small-caps;
+  position: center;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.formcontainer {  
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #F0F0F0;
+  font-family: verdana, sans-serif;
+  font-size: medium;
+  text-align: left;
+  margin: 15% auto;
+  padding: 20px;
+  border-style: solid;
+  border-color: rgba(63, 63, 63, 0.3);
+  border-width: 5px;
+  width: 70%;
+  position: relative;
+
+}
+
+.formright {
+  width: 50%;
+  float: right;
+}
+
+.inputstyle {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #F0F0F0;
+  font-family: verdana, sans-serif;
+  font-size: medium;
+  text-align: left;
+  padding: 6px;
+  border-style: solid;
+  border-color: rgba(63, 63, 63, 0.3);
+  border-width: 2px;
+}
+
+ /* The Modal (background) */
+ .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #F0F0F0;
+  font-family: verdana, sans-serif;
+  font-size: medium;
+  text-align: center;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border-style: solid;
+  border-color: rgba(63, 63, 63, 0.3);
+  border-width: 5px;
+  width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+} 
+
+.modalbutton {
+  width: 30%;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-style: solid;
+  border-color: rgba(63, 63, 63, 0.3);
+  border-width: 5px;
+  color: #bb9507;
+  font-family:'Times New Roman', serif;
+  font-size: 1.7vw;
+  font-variant: small-caps;
+  position: center;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.modalbutton:hover {
+  background-color: rgba(81, 81, 81, 0.2);
+  border-style: solid;
+  border-color: rgba(63, 63, 63, 0.3);
+  border-width: 5px;
+  color: #bb9507;
+  font-family:'Times New Roman', serif;
+  font-size: 1.7vw;
+  font-variant: small-caps;
+  position: center;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.containerb {
+  width:60%;
+  display: flex;
+  min-height: 30vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+
+}
+
+.box {
+  color: white;
+  font-size: 20px;
+  font-family: 'Tahoma', sans-serif;
+  text-align: center;
+  padding: 15px;
+  width: 14.2%;
+}
+
+/* Colours for each box */
+
+.box1 { 
+  background: #2f2f2f;
+  color: #656565;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1vw;
+  text-align: right;
+}
+.box2 { 
+  background: #353535;
+  color: #656565;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1vw;
+  text-align: right; }
+
+.box3 { 
+  background: #232323;
+  color: #bb9507;
+  font-family:'Times New Roman', serif;
+  font-size: 1.7vw;
+  font-variant: small-caps;
+  position: center; }
+
+.box4 { 
+  background: #b95050;
+  color: #f0f0f0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1vw;
+  text-align: right; }
+
+
+  header {
+    text-align: center;
+  }

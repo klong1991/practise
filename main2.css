@@ -1,0 +1,117 @@
+body {
+    background: #232323 url("background.jpg") no-repeat fixed right bottom;
+    margin: 0px;
+    display:table;
+    min-height: 100%;
+  }
+
+.content {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    }
+
+.contenttwo {
+    background: rgba(63, 63, 63, 0.3);
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    }
+
+.menu {
+    background: rgba(63, 63, 63, 0.3);
+    text-align: center;
+    
+  }
+
+.menulink:link {
+    color: #bb9507;
+    font-family:'Times New Roman', Arial, serif;
+    font-size: xx-large;
+    font-variant: small-caps;
+    position: center;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+.menulink:visited {
+    color: #bb9507;
+    font-family:'Times New Roman', Arial, serif;
+    font-variant: small-caps;
+    position: center;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+.menulink:hover, .menulink:active {
+    background-color: #515151;
+    font-family:'Times New Roman', Arial, serif;
+    font-variant: small-caps;
+    position: center;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+.logolarge {
+    max-width:100%;
+    height:auto;
+    margin-top: 1%;
+    }
+
+.footer {
+    background: rgba(63, 63, 63, 0.3);
+    text-align: center;
+    color: #F0F0F0;
+    font-family: Tahoma, sans-serif;
+    font-size: medium;
+    position: absolute;
+    display:table-footer-group;
+    width: 100%;
+
+    
+    }
+
+.footerlink:link {    
+    color: #bb9507;
+    font-family:'Times New Roman', Arial, serif;
+    font-size: large;
+    font-variant: small-caps;
+    position: center;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 20px;
+    
+    }
+
+.footerlink:hover {    
+    color: #bb4907;
+    font-family:'Times New Roman', Arial, serif;
+    font-size: large;
+    font-variant: small-caps;
+    position: center;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 20px;
+    
+    }
+
+.footerlink:visited {    
+    color: #bb9507;
+    font-family:'Times New Roman', Arial, serif;
+    font-size: large;
+    font-variant: small-caps;
+    position: center;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 20px;
+    
+    }
